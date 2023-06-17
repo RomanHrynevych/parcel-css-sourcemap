@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <include
+    src="./layout/head.html"
+    locals='{
+        "title": "Homepage"
+    }'
+  ></include>
+  <body>
+    <include src="./components/header/header.html"></include>
+
+    <h1>Hello</h1>
+    <a href="about.html">About Hello</a>
+
+    <div class="test-swiper bg-red-400">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">1</div>
+        <div class="swiper-slide">2</div>
+        <div class="swiper-slide">3</div>
+      </div>
+    </div>
+
+    <include src="./layout/parts/scripts.html"></include>
+  </body>
+</html>
